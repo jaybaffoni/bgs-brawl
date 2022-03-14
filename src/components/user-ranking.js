@@ -4,7 +4,7 @@ const UserRanking = ({id, name, userName, points, weight}) => {
 
   return (
     <div>
-      {/* implement me */}
+      {/* TODO implement me */}
     </div>
   )
 };
