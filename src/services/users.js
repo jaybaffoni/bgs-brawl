@@ -12,12 +12,6 @@ export const users = [
         weight: 177
     },
     {
-        id: 3,
-        name: 'Hayk Grigorian',
-        userName: 'Rob Raso',
-        weight: 191
-    },
-    {
         id: 4,
         name: 'Mike Diorio',
         userName: 'Prometheus',

@@ -2,22 +2,17 @@ export const points = [
     {
         week: 1,
         id: 1,
-        points: 10
+        points: 6
     },
     {
         week: 1,
         id: 2,
-        points: 8
-    },
-    {
-        week: 1,
-        id: 3,
-        points: 7
+        points: 6
     },
     {
         week: 1,
         id: 4,
-        points: 10
+        points: 6
     },
     {
         week: 1,
@@ -27,11 +22,11 @@ export const points = [
     {
         week: 1,
         id: 6,
-        points: 9
+        points: 4
     },
     {
         week: 1,
         id: 7,
-        points: 8
+        points: 3
     },
 ]
