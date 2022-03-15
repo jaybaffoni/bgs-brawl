@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react"
 import { getUsers } from "../services/points-api";
+import UserRanking from "./user-ranking";
 
 const RankingList = () => {
 
@@ -9,13 +10,15 @@ const RankingList = () => {
     setRankings(getUsers());
   }, []);
 
-  const displayUserRankings = () => {
-      //TODO implement me
-      return null;
-  }
+  const displayUserRankings = () => rankings.map((rank, i) => 
+    <UserRanking 
+        key={rank.id} 
+        rank={i + 1}
+        data={rank} />
+    );
 
   return (
-    <div>
+    <div style={{borderBottom: '1px solid grey'}}>
       {displayUserRankings()}
     </div>
   )
