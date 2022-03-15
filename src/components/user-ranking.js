@@ -22,10 +22,13 @@ const UserRanking = ({data, rank}) => {
             justifyContent: 'center',
         },
         name: {
-            fontWeight: 'bold'
+            fontWeight: 'bold',
+            textAlign: 'center',
+            fontSize: 20
         },
         userName: {
-            fontStyle: 'italic'
+            fontStyle: 'italic',
+            textAlign: 'center'
         },
         smallText: {
             fontSize: 12,
