@@ -9,7 +9,6 @@ function App() {
     },
     header: {
       padding: 16,
-      width: '100%',
       textAlign: 'center',
       margin: 0
     }
